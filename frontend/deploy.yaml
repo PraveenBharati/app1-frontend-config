@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: cloudwithvarjosh/app1-frontend:v1.0.0
+          image: public.ecr.aws/d9g8m0l4/app1-frontend-repo:v1.0.0
           ports:
             - containerPort: 4000
           env:
